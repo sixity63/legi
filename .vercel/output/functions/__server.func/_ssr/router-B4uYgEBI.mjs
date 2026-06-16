@@ -32,8 +32,8 @@ function reportLovableError(error, context = {}) {
     }
   );
 }
-const tamanCourtyardImg = "/assets/taman_courtyard-VStniTUa.png";
-const ruangKelasImg = "/assets/ruang_kelas-XP5bDCn6.png";
+const tamanCourtyardImg = "/assets/taman_courtyard-lFBzxBCH.jpeg";
+const ruangKelasImg = "/assets/ruang_kelas-OwS5MzL0.jpeg";
 const siteData = {
   brand: {
     name: "Teknik Elektro UNSRAT",
@@ -83,6 +83,8 @@ const siteData = {
     youtube: "https://youtube.com"
   },
   gallery: [
+    // PANDUAN MENGGANTI TEKS:
+    // 3. Ubah 'title' dan 'desc' di bawah ini sesuai dengan deskripsi foto Anda
     { src: tamanCourtyardImg, title: "Taman & Courtyard", desc: "Area hijau di tengah gedung sebagai ruang interaksi mahasiswa." },
     { src: ruangKelasImg, title: "Ruang Kelas & Seminar", desc: "Classroom JTE dan Seminar Room untuk perkuliahan modern." }
   ],
@@ -283,7 +285,7 @@ ${urls.join("\n")}
     }
   }
 });
-const $$splitComponentImporter$1 = () => import("./admin-Qd1VhiuR.mjs");
+const $$splitComponentImporter$1 = () => import("./admin-o6ToNR53.mjs");
 const Route$1 = createFileRoute("/admin")({
   head: () => ({
     meta: [{
@@ -295,7 +297,7 @@ const Route$1 = createFileRoute("/admin")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-const $$splitComponentImporter = () => import("./index-DYcBgjdc.mjs");
+const $$splitComponentImporter = () => import("./index-cHZWVwAn.mjs");
 const Route = createFileRoute("/")({
   head: () => ({
     meta: [{
