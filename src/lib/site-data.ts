@@ -1,8 +1,11 @@
 // Default content. Admin edits are stored in localStorage and merged on top
 // at runtime via src/lib/content-store.tsx.
 import galleryPlaceholder from "@/assets/hero-electro.jpeg";
-import tamanCourtyardImg from "@/assets/taman_courtyard.png";
-import ruangKelasImg from "@/assets/ruang_kelas.png";
+// PANDUAN MENGGANTI FOTO:
+// 1. Masukkan foto Anda ke dalam folder src/assets/
+// 2. Ubah "taman_courtyard.png" di bawah ini menjadi nama file foto Anda (misal: "foto_saya.jpg")
+import tamanCourtyardImg from "@/assets/taman_courtyard.jpeg";
+import ruangKelasImg from "@/assets/ruang_kelas.jpeg";
 
 export type SiteContent = typeof siteData;
 
@@ -59,6 +62,8 @@ export const siteData = {
     youtube: "https://youtube.com",
   },
   gallery: [
+    // PANDUAN MENGGANTI TEKS:
+    // 3. Ubah 'title' dan 'desc' di bawah ini sesuai dengan deskripsi foto Anda
     { src: tamanCourtyardImg, title: "Taman & Courtyard", desc: "Area hijau di tengah gedung sebagai ruang interaksi mahasiswa." },
     { src: ruangKelasImg, title: "Ruang Kelas & Seminar", desc: "Classroom JTE dan Seminar Room untuk perkuliahan modern." },
   ] as { src: string; title: string; desc: string }[],
